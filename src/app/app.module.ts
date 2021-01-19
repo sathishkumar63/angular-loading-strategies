@@ -5,10 +5,19 @@ import { AppComponent } from './app.component';
 import { CustomPreloadingStrategy } from './core/custom-preloading-strategy';
 import { EagerLoadingModule } from './features/eager-loading';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, AppRoutingModule, EagerLoadingModule, BrowserAnimationsModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    EagerLoadingModule,
+    BrowserAnimationsModule,
+    MatButtonModule,
+    MatToolbarModule,
+  ],
   providers: [CustomPreloadingStrategy],
   bootstrap: [AppComponent],
 })

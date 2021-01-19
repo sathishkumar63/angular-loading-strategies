@@ -6,6 +6,7 @@ import {
   LazyLoadingChild2Component,
 } from './components';
 import { LazyLoadingHomeComponent } from './containers';
+import { MatTabsModule } from '@angular/material/tabs';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,7 @@ import { LazyLoadingHomeComponent } from './containers';
     LazyLoadingChild2Component,
     LazyLoadingHomeComponent,
   ],
-  imports: [CommonModule, LazyLoadingRoutingModule],
+  imports: [CommonModule, LazyLoadingRoutingModule, MatTabsModule],
   exports: [LazyLoadingHomeComponent],
 })
 export class LazyLoadingModule {}
