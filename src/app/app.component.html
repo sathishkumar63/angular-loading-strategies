@@ -1,11 +1,11 @@
 <mat-toolbar>
   <h1>Eager Loading, Lazy Loading, and Pre-Loading Demo</h1>
 </mat-toolbar>
-<br>
+<br />
 <nav>
   <a mat-button *ngFor="let link of navLinks" [routerLink]="link.path">
     {{ link.label }}
   </a>
 </nav>
-<br>
-  <router-outlet></router-outlet>
+<br />
+<router-outlet></router-outlet>

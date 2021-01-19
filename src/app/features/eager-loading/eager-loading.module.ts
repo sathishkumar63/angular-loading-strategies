@@ -8,7 +8,7 @@ import { MatTabsModule } from '@angular/material/tabs';
   declarations: [
     EagerHomeComponent,
     EagerChild1Component,
-    EagerChild2Component,
+    EagerChild2Component
   ],
   imports: [CommonModule, RouterModule, MatTabsModule],
   exports: [EagerHomeComponent],

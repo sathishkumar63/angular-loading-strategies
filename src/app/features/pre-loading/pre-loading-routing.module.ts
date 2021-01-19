@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import {
   PreLoadingChild1Component,
-  PreLoadingChild2Component,
+  PreLoadingChild2Component
 } from './components';
 import { PreLoadingHomeComponent } from './containers';
 
@@ -14,9 +14,9 @@ const routes: Routes = [
       { path: '', redirectTo: 'child1', pathMatch: 'full' },
       { path: 'child1', component: PreLoadingChild1Component },
       { path: 'child2', component: PreLoadingChild2Component },
-      { path: '**', redirectTo: '' },
-    ],
-  },
+      { path: '**', redirectTo: '' }
+    ]
+  }
 ];
 
 @NgModule({
