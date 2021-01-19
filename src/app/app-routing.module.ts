@@ -9,6 +9,13 @@ const routes: Routes = [
         (m) => m.LazyLoadingModule
       ),
   },
+  {
+    path: 'pre-loading',
+    loadChildren: () =>
+      import('./features/pre-loading/pre-loading.module').then(
+        (m) => m.PreLoadingModule
+      ),
+  },
 ];
 
 @NgModule({
