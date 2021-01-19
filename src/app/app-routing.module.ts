@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { CustomPreloadingStrategy } from './core/custom-preloading-strategy';
 
 const routes: Routes = [
-  // { path: '', redirectTo: 'lazy-loading', pathMatch: 'full' },
+  { path: '', redirectTo: 'lazy-loading', pathMatch: 'full' },
   {
     path: 'lazy-loading',
     loadChildren: () =>
@@ -18,14 +18,14 @@ const routes: Routes = [
         (m) => m.PreLoadingModule
       ),
     data: { preload: true } // Preload only this module
-  },
+  }
 ];
 
 @NgModule({
   imports: [
     RouterModule.forRoot(routes, {
       preloadingStrategy: CustomPreloadingStrategy,
-    }),
+    })
   ],
   exports: [RouterModule]
 })
