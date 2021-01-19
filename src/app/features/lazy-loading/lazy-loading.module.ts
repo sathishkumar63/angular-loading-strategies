@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { LazyLoadingRoutingModule } from './lazy-loading-routing.module';
 import {
   LazyLoadingChild1Component,
-  LazyLoadingChild2Component,
+  LazyLoadingChild2Component
 } from './components';
 import { LazyLoadingHomeComponent } from './containers';
 import { MatTabsModule } from '@angular/material/tabs';
@@ -12,7 +12,7 @@ import { MatTabsModule } from '@angular/material/tabs';
   declarations: [
     LazyLoadingChild1Component,
     LazyLoadingChild2Component,
-    LazyLoadingHomeComponent,
+    LazyLoadingHomeComponent
   ],
   imports: [CommonModule, LazyLoadingRoutingModule, MatTabsModule],
   exports: [LazyLoadingHomeComponent],

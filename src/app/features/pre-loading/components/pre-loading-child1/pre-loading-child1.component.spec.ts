@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { PreLoadingChild1Component } from './pre-loading-child1.component';
 
 describe('PreLoadingChild1Component', () => {

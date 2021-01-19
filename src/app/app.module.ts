@@ -16,9 +16,9 @@ import { MatButtonModule } from '@angular/material/button';
     EagerLoadingModule,
     BrowserAnimationsModule,
     MatButtonModule,
-    MatToolbarModule,
+    MatToolbarModule
   ],
   providers: [CustomPreloadingStrategy],
-  bootstrap: [AppComponent],
+  bootstrap: [AppComponent]
 })
 export class AppModule {}

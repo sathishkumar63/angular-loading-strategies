@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { LazyLoadingHomeComponent } from './lazy-loading-home.component';
 
 describe('LazyLoadingHomeComponent', () => {

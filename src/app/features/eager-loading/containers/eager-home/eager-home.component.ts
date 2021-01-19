@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class EagerHomeComponent implements OnInit {
   navLinks = [
     { path: 'child1', label: 'Eager Child 1' },
-    { path: 'child2', label: 'Eager Child 2' },
+    { path: 'child2', label: 'Eager Child 2' }
   ];
   constructor() {}
 

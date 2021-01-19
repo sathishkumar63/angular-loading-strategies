@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { EagerChild1Component } from './eager-child1.component';
 
 describe('EagerChild1Component', () => {
