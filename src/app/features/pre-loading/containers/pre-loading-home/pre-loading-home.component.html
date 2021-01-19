@@ -1,5 +1,15 @@
-<p>pre-loading-home works!</p>
-<a routerLink="child1">Pre-Loading Child1 </a> |
-<a routerLink="child2">Pre-Loading Child2</a>
+<nav mat-tab-nav-bar>
+  <a
+    mat-tab-link
+    *ngFor="let link of navLinks"
+    [routerLink]="link.path"
+    routerLinkActive
+    #rla="routerLinkActive"
+    [routerLinkActiveOptions]="{ exact: true }"
+    [active]="rla.isActive"
+  >
+    {{ link.label }}
+  </a>
+</nav>
 
 <router-outlet></router-outlet>

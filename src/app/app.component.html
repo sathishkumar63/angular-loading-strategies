@@ -1,6 +1,11 @@
-<h3>Eager Loading, Lazy Loading, and Pre-Loading Demo</h3>
-
-<a routerLink="eager-loading">Eager Loading</a> |
-<a routerLink="lazy-loading">Lazy Loading</a> |
-<a routerLink="pre-loading">Pre Loading</a>
-<router-outlet></router-outlet>
+<mat-toolbar>
+  <h1>Eager Loading, Lazy Loading, and Pre-Loading Demo</h1>
+</mat-toolbar>
+<br>
+<nav>
+  <a mat-button *ngFor="let link of navLinks" [routerLink]="link.path">
+    {{ link.label }}
+  </a>
+</nav>
+<br>
+  <router-outlet></router-outlet>

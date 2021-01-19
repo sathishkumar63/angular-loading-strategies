@@ -1,4 +1,15 @@
-<p>eager-home works!</p>
-<a routerLink="child1">Eager Child 1</a> |
-<a routerLink="child2">Eager Child 2</a>
+<nav mat-tab-nav-bar>
+  <a
+    mat-tab-link
+    *ngFor="let link of navLinks"
+    [routerLink]="link.path"
+    routerLinkActive
+    #rla="routerLinkActive"
+    [routerLinkActiveOptions]="{ exact: true }"
+    [active]="rla.isActive"
+  >
+    {{ link.label }}
+  </a>
+</nav>
+
 <router-outlet></router-outlet>

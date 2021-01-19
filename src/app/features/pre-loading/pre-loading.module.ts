@@ -6,14 +6,14 @@ import {
   PreLoadingChild1Component,
   PreLoadingChild2Component,
 } from './components';
-
+import { MatTabsModule } from '@angular/material/tabs';
 @NgModule({
   declarations: [
     PreLoadingHomeComponent,
     PreLoadingChild1Component,
     PreLoadingChild2Component,
   ],
-  imports: [CommonModule, PreLoadingRoutingModule],
+  imports: [CommonModule, PreLoadingRoutingModule, MatTabsModule],
   exports: [PreLoadingHomeComponent],
 })
 export class PreLoadingModule {}
