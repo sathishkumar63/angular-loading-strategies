@@ -1,27 +1,20 @@
 # Summary
 
-Some basic description
+Some basic descriptions
 
 # Type of fix
 
-- [ ] Bug fix (non-breaking change which fixes an issue)
-- [ ] New feature (non-breaking change which adds functionality)
-- [ ] Documentation
-- [ ] Other (Specify the change)
+- [ ] Bug fixing (non-breaking change which fixes an issue)
+- [ ] New features (non-breaking change which adds functionality)
+- [ ] Documentations
+- [ ] Others (Specify the change)
 
-# Browser testing
+# Type of Browser testing
 
 - [ ] Desktop
 - [ ] Mobile
 
-# Accessibility
-
-- [ ] Accessible with keyboard hotkeys
-- [ ] Voiceover
-
-# Developer Checklist
-
-## Best Practices
+# Best Practices for Developer Checklist
 
 - [ ] Unit tests
 - [ ] Github Diffs only include files I changed
@@ -30,7 +23,7 @@ Some basic description
 - [ ] Unit tests `ng test`
 - [ ] Squashed into 1 commit
 
-# Reviewer Checklist
+# Best Practices for Reviewer Checklist
 
 - [ ] Pulled locally and manually verified ACs
 - [ ] Unit tests
