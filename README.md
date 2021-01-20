@@ -1,4 +1,13 @@
-# AngularLoadingStrategies
+# Angular Loading Strategies
+
+### 1. What is Eager Loading?
+Eager Loading would be loaded before the application starts. This is the default module-loading strategy.
+
+### 2. What is Lazy Loading?
+Lazy Loading would be loaded on demand after the application starts. It helps to start application faster.
+
+### 3. What is Pre-Loading?
+Pre-Loading would be loaded automatically after the application starts.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.7.
 
